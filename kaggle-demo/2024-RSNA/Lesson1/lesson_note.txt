@@ -1,0 +1,62 @@
+LESSON1:
+1. 课程介绍 - 15min
+    1.1 基础知识: 
+        - B站：Stanford CS231N - DL/ML
+        - 参考：《人工智能算法岗江湖武林秘籍（上）-2022.pdf》  
+        - 希望大家每节课提出几个问题，每节课花5min讨论
+            - 面试题：Transformer里面的LN层的作用？？ 
+            - AI特征提取: RNN, CNN, Transforemr(Self/Cross Attetnion)
+    1.2 coding提升 
+        - AI: python -> C++
+        - 本科生/转行的同学. debug: 熟练的使用pdb或者gdb + IDE debug.
+        - python debug: IDE debug/ pdb debug
+        - codetop: https://codetop.cc/home
+    1.3 paper阅读
+        - 利用谷歌学术. 持续追踪最新的论文改进
+        - 微信号 arXiv_Daily
+        - 希望大家每节课都能提出某篇论文读不懂的地方, 提前三天反馈给我. 
+    1.4 比赛code阅读
+        - 《Segmentation_HubMap_UWMGIT_proj.png》
+    1.5 AI开发环境的搭建
+        - 《打造舒适的AI开发环境.pdf》
+    1.6 论文写作
+        - LATEX语法的学习
+        - ICASSP 2025 https://www.overleaf.com/latex/templates/icassp-2024/tccnsdrrzgqh
+    1.7 课程计划
+        - 每节课比赛 & 论文 同时进行
+        - 目标：3个月.  
+            英文：EI会议. 中文：现代电子技术
+
+2. Kaggle注册提交过程
+    2.1 Kaggle注册过程
+        - QQ邮箱 + 手机号
+    2.2 下载数据的方法
+        - wget -c 
+        - kaggle download
+    2.3 提交方法
+        - Kaggle(ipynb)/Tianchi(docker)  -- 二次提交机制. 
+        -- 比赛组织人员标了200张图片.  100张训练. 100张测试（！！！不可能都给你的, 避免标注作弊.）
+        -- 给你训练的时候, 给你1st: 10张Test 
+            - 第一次提交：submission.csv: 目的：免费的. 确保你的提交格式是正确的！ && 确保一下python包正确性. && 第二次提交时候 格式还是这样的. 
+        if pass
+            - 第二次提交
+                - 2nd: 90张Test - submission.csv 但是！！！！注意
+                --40张 Test - Public 排行榜
+                --50张 Test - Private 看不到. 除非比赛结束. 你才能看到这个排行. 最后真正排行
+                目的：避免overfitting，过度的调参
+        else:
+            python仓库：pypi/anaconda or submission调整
+
+3. 跑通baseline
+    3.1 逐行理解开源目前最高分baseline
+        - https://www.kaggle.com/code/hugowjd/rsna2024-lsdc-densenet-submission
+
+4. 上课方式
+    -- 有任何问题都随便提问
+    - 及时群里@我
+
+5. 作业：/ TO DO LIST
+    - 5.1 按照“课程介绍”查漏补缺
+    - 5.2 利用开源baseline完成第一次提交：https://www.kaggle.com/code/hugowjd/rsna2024-lsdc-densenet-submission
+    - 5.3 自己开发环境跑通代码 python rsna2024-lsdc-densenet-submission.py
+    - 5.4 利用KIMI逐行理解上述代码.
